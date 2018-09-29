@@ -1,0 +1,101 @@
+/* h1 {
+    color: red
+}
+
+p {
+    color: royalblue
+    }
+
+    div {
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    background-color: rgb(237, 200, 100); 
+    } 
+
+h2{
+    color: chartreuse;
+}
+
+button{
+    color: blue;
+    background-color: gray;
+}
+
+.claudio {
+    width: 300px;
+    padding: 100px;
+     border-width: 5px;
+    border-style: solid;
+    border-color:yellow;\s              
+    border: 20px solid rgb(180, 22, 172);           
+    background-color: rgb(207, 202, 202);
+    border-radius: 50px;
+    }
+    
+.claudio1 {
+    width: 600px;
+    padding: 45px;
+     border-width: 5px;
+    border-style: solid;
+    border-color:yellow;\s                
+    border: 2px solid blue;           
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: right;
+    }
+    
+.claudio2 {
+    width: 300px;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:yellow;\s                
+    border: 15px solid black;           
+    background-color: rgb(207, 202, 202);
+    border-radius: 50px;
+    text-align: center;
+    } */
+
+.container-1{
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+}
+
+.container-2 {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.container-box {
+    width: 14%;
+
+}
+.container-1 div, .container-2 div {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+}
+.box-2 {
+    flex: 2;
+    order: 2;
+}
+.box-3 {
+    flex: 1;
+    order: 3;
+}
+
+
+
+
